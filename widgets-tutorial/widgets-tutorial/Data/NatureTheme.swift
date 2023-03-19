@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum NatureTheme {
+enum NatureTheme: String, CaseIterable {    
     case beach
     case park
     case city
