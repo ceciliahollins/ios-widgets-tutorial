@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7E1FDA2911BB8800E3AB67 /* WidgetsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FD92911BB8800E3AB67 /* WidgetsTutorialApp.swift */; };
+		2C7E1FDC2911BB8800E3AB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FDB2911BB8800E3AB67 /* ContentView.swift */; };
+		2C7E1FDE2911BB8900E3AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */; };
+		2C7E1FE22911BB8900E3AB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E1FE12911BB8900E3AB67 /* Preview Assets.xcassets */; };
+		2C7E1FEC2911BC3100E3AB67 /* NatureTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FE92911BC3100E3AB67 /* NatureTheme.swift */; };
+		2C7E1FED2911BC3100E3AB67 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FEB2911BC3100E3AB67 /* TimeView.swift */; };
+		2C7E1FF52911C2EA00E3AB67 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E1FF42911C2EA00E3AB67 /* WidgetKit.framework */; };
+		2C7E1FF72911C2EA00E3AB67 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E1FF62911C2EA00E3AB67 /* SwiftUI.framework */; };
+		2C7E1FFA2911C2EA00E3AB67 /* NatureTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FF92911C2EA00E3AB67 /* NatureTimeWidget.swift */; };
+		2C7E1FFC2911C2EB00E3AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E1FFB2911C2EB00E3AB67 /* Assets.xcassets */; };
+		2C7E20002911C2EB00E3AB67 /* NatureTimeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C7E1FF22911C2EA00E3AB67 /* NatureTimeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C7E20052911C31100E3AB67 /* NatureTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FE92911BC3100E3AB67 /* NatureTheme.swift */; };
+		2C7E20062911C31100E3AB67 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FEB2911BC3100E3AB67 /* TimeView.swift */; };
+		2C7E20072911C31100E3AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */; };
+		2C7E20092911C8A400E3AB67 /* NatureThemeSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E20082911C8A400E3AB67 /* NatureThemeSelection.intentdefinition */; };
+		2C7E200B2911C98400E3AB67 /* NatureThemeSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E20082911C8A400E3AB67 /* NatureThemeSelection.intentdefinition */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C7E1FFE2911C2EB00E3AB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C7E1FCE2911BB8800E3AB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7E1FF12911C2EA00E3AB67;
+			remoteInfo = NatureTimeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C7E20042911C2EB00E3AB67 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C7E20002911C2EB00E3AB67 /* NatureTimeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C7E1FD62911BB8800E3AB67 /* widgets-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "widgets-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7E1FD92911BB8800E3AB67 /* WidgetsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsTutorialApp.swift; sourceTree = "<group>"; };
+		2C7E1FDB2911BB8800E3AB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7E1FDF2911BB8900E3AB67 /* widgets-tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "widgets-tutorial.entitlements"; sourceTree = "<group>"; };
+		2C7E1FE12911BB8900E3AB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C7E1FE92911BC3100E3AB67 /* NatureTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatureTheme.swift; sourceTree = "<group>"; };
+		2C7E1FEB2911BC3100E3AB67 /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		2C7E1FF22911C2EA00E3AB67 /* NatureTimeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NatureTimeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7E1FF42911C2EA00E3AB67 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2C7E1FF62911C2EA00E3AB67 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2C7E1FF92911C2EA00E3AB67 /* NatureTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureTimeWidget.swift; sourceTree = "<group>"; };
+		2C7E1FFB2911C2EB00E3AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7E1FFD2911C2EB00E3AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7E20082911C8A400E3AB67 /* NatureThemeSelection.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NatureThemeSelection.intentdefinition; sourceTree = "<group>"; };
+		2C7E200C2911CB2300E3AB67 /* widgets-tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "widgets-tutorial-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7E1FD32911BB8800E3AB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E1FEF2911C2EA00E3AB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E1FF72911C2EA00E3AB67 /* SwiftUI.framework in Frameworks */,
+				2C7E1FF52911C2EA00E3AB67 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C7E1FCD2911BB8800E3AB67 = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FD82911BB8800E3AB67 /* widgets-tutorial */,
+				2C7E1FF82911C2EA00E3AB67 /* NatureTimeWidget */,
+				2C7E1FF32911C2EA00E3AB67 /* Frameworks */,
+				2C7E1FD72911BB8800E3AB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7E1FD72911BB8800E3AB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FD62911BB8800E3AB67 /* widgets-tutorial.app */,
+				2C7E1FF22911C2EA00E3AB67 /* NatureTimeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7E1FD82911BB8800E3AB67 /* widgets-tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E200C2911CB2300E3AB67 /* widgets-tutorial-Info.plist */,
+				2C7E1FE82911BC3100E3AB67 /* Data */,
+				2C7E1FEA2911BC3100E3AB67 /* Views */,
+				2C7E1FD92911BB8800E3AB67 /* WidgetsTutorialApp.swift */,
+				2C7E1FDB2911BB8800E3AB67 /* ContentView.swift */,
+				2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */,
+				2C7E1FDF2911BB8900E3AB67 /* widgets-tutorial.entitlements */,
+				2C7E1FE02911BB8900E3AB67 /* Preview Content */,
+			);
+			path = "widgets-tutorial";
+			sourceTree = "<group>";
+		};
+		2C7E1FE02911BB8900E3AB67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FE12911BB8900E3AB67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C7E1FE82911BC3100E3AB67 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FE92911BC3100E3AB67 /* NatureTheme.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2C7E1FEA2911BC3100E3AB67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FEB2911BC3100E3AB67 /* TimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C7E1FF32911C2EA00E3AB67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FF42911C2EA00E3AB67 /* WidgetKit.framework */,
+				2C7E1FF62911C2EA00E3AB67 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C7E1FF82911C2EA00E3AB67 /* NatureTimeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E1FF92911C2EA00E3AB67 /* NatureTimeWidget.swift */,
+				2C7E1FFB2911C2EB00E3AB67 /* Assets.xcassets */,
+				2C7E1FFD2911C2EB00E3AB67 /* Info.plist */,
+				2C7E20082911C8A400E3AB67 /* NatureThemeSelection.intentdefinition */,
+			);
+			path = NatureTimeWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7E1FD52911BB8800E3AB67 /* widgets-tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7E1FE52911BB8900E3AB67 /* Build configuration list for PBXNativeTarget "widgets-tutorial" */;
+			buildPhases = (
+				2C7E1FD22911BB8800E3AB67 /* Sources */,
+				2C7E1FD32911BB8800E3AB67 /* Frameworks */,
+				2C7E1FD42911BB8800E3AB67 /* Resources */,
+				2C7E20042911C2EB00E3AB67 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7E1FFF2911C2EB00E3AB67 /* PBXTargetDependency */,
+			);
+			name = "widgets-tutorial";
+			productName = CodingDojo_WidgetKit;
+			productReference = 2C7E1FD62911BB8800E3AB67 /* widgets-tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C7E1FF12911C2EA00E3AB67 /* NatureTimeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7E20012911C2EB00E3AB67 /* Build configuration list for PBXNativeTarget "NatureTimeWidgetExtension" */;
+			buildPhases = (
+				2C7E1FEE2911C2EA00E3AB67 /* Sources */,
+				2C7E1FEF2911C2EA00E3AB67 /* Frameworks */,
+				2C7E1FF02911C2EA00E3AB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatureTimeWidgetExtension;
+			productName = NatureTimeWidgetExtension;
+			productReference = 2C7E1FF22911C2EA00E3AB67 /* NatureTimeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C7E1FCE2911BB8800E3AB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2C7E1FD52911BB8800E3AB67 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2C7E1FF12911C2EA00E3AB67 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 2C7E1FD12911BB8800E3AB67 /* Build configuration list for PBXProject "widgets-tutorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C7E1FCD2911BB8800E3AB67;
+			productRefGroup = 2C7E1FD72911BB8800E3AB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7E1FD52911BB8800E3AB67 /* widgets-tutorial */,
+				2C7E1FF12911C2EA00E3AB67 /* NatureTimeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C7E1FD42911BB8800E3AB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E1FE22911BB8900E3AB67 /* Preview Assets.xcassets in Resources */,
+				2C7E1FDE2911BB8900E3AB67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E1FF02911C2EA00E3AB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E20072911C31100E3AB67 /* Assets.xcassets in Resources */,
+				2C7E1FFC2911C2EB00E3AB67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7E1FD22911BB8800E3AB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E1FDC2911BB8800E3AB67 /* ContentView.swift in Sources */,
+				2C7E1FEC2911BC3100E3AB67 /* NatureTheme.swift in Sources */,
+				2C7E1FDA2911BB8800E3AB67 /* WidgetsTutorialApp.swift in Sources */,
+				2C7E20092911C8A400E3AB67 /* NatureThemeSelection.intentdefinition in Sources */,
+				2C7E1FED2911BC3100E3AB67 /* TimeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E1FEE2911C2EA00E3AB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E20052911C31100E3AB67 /* NatureTheme.swift in Sources */,
+				2C7E1FFA2911C2EA00E3AB67 /* NatureTimeWidget.swift in Sources */,
+				2C7E200B2911C98400E3AB67 /* NatureThemeSelection.intentdefinition in Sources */,
+				2C7E20062911C31100E3AB67 /* TimeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C7E1FFF2911C2EB00E3AB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7E1FF12911C2EA00E3AB67 /* NatureTimeWidgetExtension */;
+			targetProxy = 2C7E1FFE2911C2EB00E3AB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C7E1FE32911BB8900E3AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C7E1FE42911BB8900E3AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C7E1FE62911BB8900E3AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "widgets-tutorial/widgets-tutorial.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"widgets-tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = SH9M68C7WT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "widgets-tutorial-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.widgets-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7E1FE72911BB8900E3AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "widgets-tutorial/widgets-tutorial.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"widgets-tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = SH9M68C7WT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "widgets-tutorial-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.widgets-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C7E20022911C2EB00E3AB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SH9M68C7WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NatureTimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NatureTimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.CodingDojo-WidgetKit.NatureTimeWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7E20032911C2EB00E3AB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SH9M68C7WT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NatureTimeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NatureTimeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.CodingDojo-WidgetKit.NatureTimeWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7E1FD12911BB8800E3AB67 /* Build configuration list for PBXProject "widgets-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7E1FE32911BB8900E3AB67 /* Debug */,
+				2C7E1FE42911BB8900E3AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7E1FE52911BB8900E3AB67 /* Build configuration list for PBXNativeTarget "widgets-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7E1FE62911BB8900E3AB67 /* Debug */,
+				2C7E1FE72911BB8900E3AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7E20012911C2EB00E3AB67 /* Build configuration list for PBXNativeTarget "NatureTimeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7E20022911C2EB00E3AB67 /* Debug */,
+				2C7E20032911C2EB00E3AB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C7E1FCE2911BB8800E3AB67 /* Project object */;
+}
