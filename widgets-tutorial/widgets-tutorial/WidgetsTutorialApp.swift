@@ -1,6 +1,6 @@
 //
-//  CodingDojo_WidgetKitApp.swift
-//  CodingDojo_WidgetKit
+//  WidgetsTutorialApp.swift
+//  WidgetsTutorialApp
 //
 //  Created by Hollins, Cecilia on 2/11/2022.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct CodingDojo_WidgetKitApp: App {
+struct WidgetsTutorialApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

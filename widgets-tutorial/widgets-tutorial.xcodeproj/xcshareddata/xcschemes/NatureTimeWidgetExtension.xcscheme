@@ -18,7 +18,7 @@
                BlueprintIdentifier = "2C7E1FF12911C2EA00E3AB67"
                BuildableName = "NatureTimeWidgetExtension.appex"
                BlueprintName = "NatureTimeWidgetExtension"
-               ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+               ReferencedContainer = "container:widgets-tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C7E1FD52911BB8800E3AB67"
-               BuildableName = "CodingDojo_WidgetKit.app"
-               BlueprintName = "CodingDojo_WidgetKit"
-               ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+               BuildableName = "widgets-tutorial.app"
+               BlueprintName = "widgets-tutorial"
+               ReferencedContainer = "container:widgets-tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -65,16 +65,16 @@
             BlueprintIdentifier = "2C7E1FF12911C2EA00E3AB67"
             BuildableName = "NatureTimeWidgetExtension.appex"
             BlueprintName = "NatureTimeWidgetExtension"
-            ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+            ReferencedContainer = "container:widgets-tutorial.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C7E1FD52911BB8800E3AB67"
-            BuildableName = "CodingDojo_WidgetKit.app"
-            BlueprintName = "CodingDojo_WidgetKit"
-            ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+            BuildableName = "widgets-tutorial.app"
+            BlueprintName = "widgets-tutorial"
+            ReferencedContainer = "container:widgets-tutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <EnvironmentVariables>
@@ -108,9 +108,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C7E1FD52911BB8800E3AB67"
-            BuildableName = "CodingDojo_WidgetKit.app"
-            BlueprintName = "CodingDojo_WidgetKit"
-            ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+            BuildableName = "widgets-tutorial.app"
+            BlueprintName = "widgets-tutorial"
+            ReferencedContainer = "container:widgets-tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

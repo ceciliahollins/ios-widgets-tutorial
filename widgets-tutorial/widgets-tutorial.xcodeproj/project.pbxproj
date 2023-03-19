@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C7E1FDA2911BB8800E3AB67 /* CodingDojo_WidgetKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FD92911BB8800E3AB67 /* CodingDojo_WidgetKitApp.swift */; };
+		2C7E1FDA2911BB8800E3AB67 /* WidgetsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FD92911BB8800E3AB67 /* WidgetsTutorialApp.swift */; };
 		2C7E1FDC2911BB8800E3AB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E1FDB2911BB8800E3AB67 /* ContentView.swift */; };
 		2C7E1FDE2911BB8900E3AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */; };
 		2C7E1FE22911BB8900E3AB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E1FE12911BB8900E3AB67 /* Preview Assets.xcassets */; };
@@ -38,23 +38,23 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		2C7E20042911C2EB00E3AB67 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 				2C7E20002911C2EB00E3AB67 /* NatureTimeWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C7E1FD62911BB8800E3AB67 /* CodingDojo_WidgetKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingDojo_WidgetKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C7E1FD92911BB8800E3AB67 /* CodingDojo_WidgetKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingDojo_WidgetKitApp.swift; sourceTree = "<group>"; };
+		2C7E1FD62911BB8800E3AB67 /* widgets-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "widgets-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7E1FD92911BB8800E3AB67 /* WidgetsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsTutorialApp.swift; sourceTree = "<group>"; };
 		2C7E1FDB2911BB8800E3AB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C7E1FDF2911BB8900E3AB67 /* CodingDojo_WidgetKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodingDojo_WidgetKit.entitlements; sourceTree = "<group>"; };
+		2C7E1FDF2911BB8900E3AB67 /* widgets-tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "widgets-tutorial.entitlements"; sourceTree = "<group>"; };
 		2C7E1FE12911BB8900E3AB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C7E1FE92911BC3100E3AB67 /* NatureTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NatureTheme.swift; sourceTree = "<group>"; };
 		2C7E1FEB2911BC3100E3AB67 /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		2C7E1FFB2911C2EB00E3AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C7E1FFD2911C2EB00E3AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C7E20082911C8A400E3AB67 /* NatureThemeSelection.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NatureThemeSelection.intentdefinition; sourceTree = "<group>"; };
-		2C7E200C2911CB2300E3AB67 /* CodingDojo-WidgetKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CodingDojo-WidgetKit-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2C7E200C2911CB2300E3AB67 /* widgets-tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "widgets-tutorial-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		2C7E1FCD2911BB8800E3AB67 = {
 			isa = PBXGroup;
 			children = (
-				2C7E1FD82911BB8800E3AB67 /* CodingDojo_WidgetKit */,
+				2C7E1FD82911BB8800E3AB67 /* widgets-tutorial */,
 				2C7E1FF82911C2EA00E3AB67 /* NatureTimeWidget */,
 				2C7E1FF32911C2EA00E3AB67 /* Frameworks */,
 				2C7E1FD72911BB8800E3AB67 /* Products */,
@@ -101,25 +101,25 @@
 		2C7E1FD72911BB8800E3AB67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C7E1FD62911BB8800E3AB67 /* CodingDojo_WidgetKit.app */,
+				2C7E1FD62911BB8800E3AB67 /* widgets-tutorial.app */,
 				2C7E1FF22911C2EA00E3AB67 /* NatureTimeWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C7E1FD82911BB8800E3AB67 /* CodingDojo_WidgetKit */ = {
+		2C7E1FD82911BB8800E3AB67 /* widgets-tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				2C7E200C2911CB2300E3AB67 /* CodingDojo-WidgetKit-Info.plist */,
+				2C7E200C2911CB2300E3AB67 /* widgets-tutorial-Info.plist */,
 				2C7E1FE82911BC3100E3AB67 /* Data */,
 				2C7E1FEA2911BC3100E3AB67 /* Views */,
-				2C7E1FD92911BB8800E3AB67 /* CodingDojo_WidgetKitApp.swift */,
+				2C7E1FD92911BB8800E3AB67 /* WidgetsTutorialApp.swift */,
 				2C7E1FDB2911BB8800E3AB67 /* ContentView.swift */,
 				2C7E1FDD2911BB8900E3AB67 /* Assets.xcassets */,
-				2C7E1FDF2911BB8900E3AB67 /* CodingDojo_WidgetKit.entitlements */,
+				2C7E1FDF2911BB8900E3AB67 /* widgets-tutorial.entitlements */,
 				2C7E1FE02911BB8900E3AB67 /* Preview Content */,
 			);
-			path = CodingDojo_WidgetKit;
+			path = "widgets-tutorial";
 			sourceTree = "<group>";
 		};
 		2C7E1FE02911BB8900E3AB67 /* Preview Content */ = {
@@ -169,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C7E1FD52911BB8800E3AB67 /* CodingDojo_WidgetKit */ = {
+		2C7E1FD52911BB8800E3AB67 /* widgets-tutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C7E1FE52911BB8900E3AB67 /* Build configuration list for PBXNativeTarget "CodingDojo_WidgetKit" */;
+			buildConfigurationList = 2C7E1FE52911BB8900E3AB67 /* Build configuration list for PBXNativeTarget "widgets-tutorial" */;
 			buildPhases = (
 				2C7E1FD22911BB8800E3AB67 /* Sources */,
 				2C7E1FD32911BB8800E3AB67 /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				2C7E1FFF2911C2EB00E3AB67 /* PBXTargetDependency */,
 			);
-			name = CodingDojo_WidgetKit;
+			name = "widgets-tutorial";
 			productName = CodingDojo_WidgetKit;
-			productReference = 2C7E1FD62911BB8800E3AB67 /* CodingDojo_WidgetKit.app */;
+			productReference = 2C7E1FD62911BB8800E3AB67 /* widgets-tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2C7E1FF12911C2EA00E3AB67 /* NatureTimeWidgetExtension */ = {
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C7E1FD12911BB8800E3AB67 /* Build configuration list for PBXProject "CodingDojo_WidgetKit" */;
+			buildConfigurationList = 2C7E1FD12911BB8800E3AB67 /* Build configuration list for PBXProject "widgets-tutorial" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C7E1FD52911BB8800E3AB67 /* CodingDojo_WidgetKit */,
+				2C7E1FD52911BB8800E3AB67 /* widgets-tutorial */,
 				2C7E1FF12911C2EA00E3AB67 /* NatureTimeWidgetExtension */,
 			);
 		};
@@ -270,7 +270,7 @@
 			files = (
 				2C7E1FDC2911BB8800E3AB67 /* ContentView.swift in Sources */,
 				2C7E1FEC2911BC3100E3AB67 /* NatureTheme.swift in Sources */,
-				2C7E1FDA2911BB8800E3AB67 /* CodingDojo_WidgetKitApp.swift in Sources */,
+				2C7E1FDA2911BB8800E3AB67 /* WidgetsTutorialApp.swift in Sources */,
 				2C7E20092911C8A400E3AB67 /* NatureThemeSelection.intentdefinition in Sources */,
 				2C7E1FED2911BC3100E3AB67 /* TimeView.swift in Sources */,
 			);
@@ -413,15 +413,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CodingDojo_WidgetKit/CodingDojo_WidgetKit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "widgets-tutorial/widgets-tutorial.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CodingDojo_WidgetKit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"widgets-tutorial/Preview Content\"";
 				DEVELOPMENT_TEAM = SH9M68C7WT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CodingDojo-WidgetKit-Info.plist";
+				INFOPLIST_FILE = "widgets-tutorial-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -437,7 +437,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.CodingDojo-WidgetKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.widgets-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -453,15 +453,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CodingDojo_WidgetKit/CodingDojo_WidgetKit.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "widgets-tutorial/widgets-tutorial.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CodingDojo_WidgetKit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"widgets-tutorial/Preview Content\"";
 				DEVELOPMENT_TEAM = SH9M68C7WT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CodingDojo-WidgetKit-Info.plist";
+				INFOPLIST_FILE = "widgets-tutorial-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -477,7 +477,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.CodingDojo-WidgetKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chollins.widgets-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C7E1FD12911BB8800E3AB67 /* Build configuration list for PBXProject "CodingDojo_WidgetKit" */ = {
+		2C7E1FD12911BB8800E3AB67 /* Build configuration list for PBXProject "widgets-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C7E1FE32911BB8900E3AB67 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C7E1FE52911BB8900E3AB67 /* Build configuration list for PBXNativeTarget "CodingDojo_WidgetKit" */ = {
+		2C7E1FE52911BB8900E3AB67 /* Build configuration list for PBXNativeTarget "widgets-tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C7E1FE62911BB8900E3AB67 /* Debug */,

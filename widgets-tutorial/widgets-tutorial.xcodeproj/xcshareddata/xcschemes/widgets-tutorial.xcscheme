@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1410"
+   LastUpgradeVersion = "1420"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C7E1FD52911BB8800E3AB67"
-               BuildableName = "CodingDojo_WidgetKit.app"
-               BlueprintName = "CodingDojo_WidgetKit"
-               ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+               BuildableName = "widgets-tutorial.app"
+               BlueprintName = "widgets-tutorial"
+               ReferencedContainer = "container:widgets-tutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C7E1FD52911BB8800E3AB67"
-            BuildableName = "CodingDojo_WidgetKit.app"
-            BlueprintName = "CodingDojo_WidgetKit"
-            ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+            BuildableName = "widgets-tutorial.app"
+            BlueprintName = "widgets-tutorial"
+            ReferencedContainer = "container:widgets-tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2C7E1FD52911BB8800E3AB67"
-            BuildableName = "CodingDojo_WidgetKit.app"
-            BlueprintName = "CodingDojo_WidgetKit"
-            ReferencedContainer = "container:CodingDojo_WidgetKit.xcodeproj">
+            BuildableName = "widgets-tutorial.app"
+            BlueprintName = "widgets-tutorial"
+            ReferencedContainer = "container:widgets-tutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
