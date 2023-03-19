@@ -19,6 +19,11 @@ struct ContentView: View {
         VStack {
             Text("Preview your widget")
                 .font(.title)
+                .padding()
+            
+            Text("This app creates a time widget that will display the current time on the device home screen in a more asthetically pleasing way. Click on the button below to see other themes.")
+                .padding()
+                .multilineTextAlignment(.center)
             
             TimeView(theme: currentTheme, imageSize: 250, time: currentDate)
                 .padding()
