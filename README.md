@@ -38,6 +38,5 @@ hollins.cecilia@gmail.com
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
 * [Apple WidgetKit documentation](https://developer.apple.com/documentation/widgetkit)
 
