@@ -55,7 +55,9 @@ struct Provider: IntentTimelineProvider {
         completion(timeline)
     }
     
-    /// A helper function not required by the protocol to convert the configuration intent into the project defined theme
+    /// A helper function not required by the protocol
+    ///
+    /// Converts the configuration intent into the project defined theme.
     func theme(for configuration: NatureThemeSelectionIntent) -> NatureTheme {
         switch configuration.theme {
         case .beach:
@@ -70,12 +72,20 @@ struct Provider: IntentTimelineProvider {
     }
 }
 
+/// The model for the widget, requiring the date for when that data will be displayed and optionally any other data required
+///
+/// The date will be used to inform the system that is has new data to show and the widget needs to be refreshed at that time. Other data we may need will also be held here.
 struct NatureTimeEntry: TimelineEntry {
     let date: Date
     let theme: NatureTheme
 }
 
-struct NatureTimeWidgetEntryView : View {
+/// The view for the widget, build using SwiftUI
+///
+/// The view is build the same way a normal SwiftUI view would be built. Because widget family options will be of different shapes and sizes, the view may need to be customized. Do this by adding an environment variable for the widgetFamily and a switch case for this variable.
+///
+/// The entry parameter is used to provide the needed data for the view. The entry is of type Provider.Entry, which points to the TimelineEntry struct created as our model for the widget.
+struct NatureTimeWidgetEntryView: View {
     var entry: Provider.Entry
     
     @Environment(\.widgetFamily) var family
@@ -90,12 +100,25 @@ struct NatureTimeWidgetEntryView : View {
     }
 }
 
+/// The main configuration, where everything is brought together to create the widget
+///
+/// This is where the timeline provider gets hooked up with the widget view. There are two types of configurations, StaticConfiguration and IntentConfiguration. IntentConfiguration allows for user configuration options, while StaticConfiguration does not. If user customization is allowed on the widget, use IntentConfiguration.
+///
+/// The kind parameter should provide a unique string to identify the widget when loading its timeline into the widget center.
+///
+/// The intent parameter provides the user configurable options, created using SiriKit custom intents.
+///
+/// The provider parameter is the widgets IntentTimelineProvider or TimelineProvider, used to create the timeline for when the widget will be refreshed.
+///
+/// Modifiers on the configuration should include a minimum of the configuration display name, the description, and the supported families. The configuration display name and description are used in the widget gallery, and the supported families tells the system which sizes the widget supports.
 @main
 struct NatureTimeWidget: Widget {
-    let kind: String = "NatureTimeWidget"
+    let kind: String = "widgets-tutorial-nature-time"
 
     var body: some WidgetConfiguration {
-        IntentConfiguration(kind: kind, intent: NatureThemeSelectionIntent.self, provider: Provider()) { entry in
+        IntentConfiguration(kind: kind,
+                            intent: NatureThemeSelectionIntent.self,
+                            provider: Provider()) { entry in
             NatureTimeWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("Nature time")
@@ -104,6 +127,11 @@ struct NatureTimeWidget: Widget {
     }
 }
 
+/// Preview the widgets families and placeholder views
+///
+/// Use the previewContext modifier to pass in and view a specific family type
+///
+/// Use the redacted modifier to view placeholder UI
 struct NatureTimeWidget_Previews: PreviewProvider {
     static var previews: some View {
         Group {
